@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A71A7DF21D6270C00A26DC9 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A71A7DD21D6270B00A26DC9 /* key.png */; };
+		9A71A7E021D6270C00A26DC9 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A71A7DE21D6270B00A26DC9 /* setting.png */; };
+		9A71A7E221D62D3000A26DC9 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71A7E121D62D3000A26DC9 /* NextViewController.swift */; };
 		9AE9D8A121D5E2DA00D1468E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9D8A021D5E2DA00D1468E /* AppDelegate.swift */; };
 		9AE9D8A321D5E2DA00D1468E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9D8A221D5E2DA00D1468E /* ViewController.swift */; };
 		9AE9D8A621D5E2DA00D1468E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE9D8A421D5E2DA00D1468E /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A71A7DD21D6270B00A26DC9 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		9A71A7DE21D6270B00A26DC9 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		9A71A7E121D62D3000A26DC9 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		9AE9D89D21D5E2DA00D1468E /* Swift5Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5Button.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE9D8A021D5E2DA00D1468E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AE9D8A221D5E2DA00D1468E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +60,11 @@
 		9AE9D89F21D5E2DA00D1468E /* Swift5Button */ = {
 			isa = PBXGroup;
 			children = (
+				9A71A7DD21D6270B00A26DC9 /* key.png */,
+				9A71A7DE21D6270B00A26DC9 /* setting.png */,
 				9AE9D8A021D5E2DA00D1468E /* AppDelegate.swift */,
 				9AE9D8A221D5E2DA00D1468E /* ViewController.swift */,
+				9A71A7E121D62D3000A26DC9 /* NextViewController.swift */,
 				9AE9D8A421D5E2DA00D1468E /* Main.storyboard */,
 				9AE9D8A721D5E2DB00D1468E /* Assets.xcassets */,
 				9AE9D8A921D5E2DB00D1468E /* LaunchScreen.storyboard */,
@@ -125,6 +134,8 @@
 				9AE9D8AB21D5E2DB00D1468E /* LaunchScreen.storyboard in Resources */,
 				9AE9D8A821D5E2DB00D1468E /* Assets.xcassets in Resources */,
 				9AE9D8A621D5E2DA00D1468E /* Main.storyboard in Resources */,
+				9A71A7E021D6270C00A26DC9 /* setting.png in Resources */,
+				9A71A7DF21D6270C00A26DC9 /* key.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE9D8A321D5E2DA00D1468E /* ViewController.swift in Sources */,
+				9A71A7E221D62D3000A26DC9 /* NextViewController.swift in Sources */,
 				9AE9D8A121D5E2DA00D1468E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
