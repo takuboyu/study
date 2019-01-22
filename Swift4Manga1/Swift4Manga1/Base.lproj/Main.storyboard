@@ -64,8 +64,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="countLabel" destination="qdq-RF-Oxp" id="s7u-i7-j4b"/>
-                        <outlet property="runnerImageView" destination="dQD-Gi-YK5" id="CSU-AO-HF9"/>
+                        <outlet property="countLabel" destination="qdq-RF-Oxp" id="fiA-n4-6os"/>
+                        <outlet property="runnerImageView" destination="dQD-Gi-YK5" id="ylg-o4-zHx"/>
                         <outlet property="runnerimageView" destination="dQD-Gi-YK5" id="o1p-j5-GnY"/>
                     </connections>
                 </viewController>
