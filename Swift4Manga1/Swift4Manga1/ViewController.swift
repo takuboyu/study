@@ -48,6 +48,7 @@ class ViewController: UIViewController {
         timer2 = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { (timer) in
             //配列から画像を取り出してUIImageVIewに反映
             if(self.updateCount > 5){
+                self.updateCount = 0
                 self.runnerImageView.image = UIImage(named: "dash0.png")
             }else{
                 self.runnerImageView.image = self.imageArray[self.updateCount]
